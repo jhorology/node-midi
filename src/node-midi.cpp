@@ -2,8 +2,8 @@
 #include <queue>
 #include <uv.h>
 
-#include "lib/RtMidi/RtMidi.h"
-#include "lib/RtMidi/RtMidi.cpp"
+#include "lib/rtmidi/RtMidi.h"
+#include "lib/rtmidi/RtMidi.cpp"
 
 class NodeMidiOutput : public Nan::ObjectWrap
 {
